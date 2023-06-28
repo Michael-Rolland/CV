@@ -34,13 +34,14 @@ width: 6em;
 height: 6em;
 border-radius: 6em;
 background: white;
-border: solid 0.3em #4c7590;
+border: 2mm ridge rgba(17, 17, 16, 0.6);
 }
 
 header nav a {
     color: white;
     padding: 10px;
     margin: 10px;
+    font-size: 1.3em;
 }
 
 /* css parti centrale */
@@ -51,11 +52,10 @@ header nav a {
 }
 
 aside {
-    height: vh;
     width: 35%;
     font-size: 2em;
     text-align: center;
-    background-image: url(https://raw.githubusercontent.com/Michael-Rolland/CV/main/Images/ordinateur.jpg);
+    background-image: url(/Images/ordinateur.jpg);
     background-size: cover;
     background-position: center;
     color: white;
@@ -113,4 +113,89 @@ width: 22%;
     display: block;
     margin: 2.2em 0;
     
+}
+/* 2eme section */
+
+#compet {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #58829e;
+    
+}
+
+.leftcomp {
+width: 55%;
+background-color: black;
+color: white;
+padding: 2em 0 2em 0;
+
+}
+
+.rightcomp {
+width: 45%;
+background-color: #58829e;
+color: white;
+margin: auto;
+position: relative;
+
+
+}
+.rightcomp img{
+width: 9em;
+height: 9em;
+border-radius: 9em;
+background: white;
+border: solid 0.3em #4c7590;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+ }
+
+#compet H2 {
+text-align: center;
+}
+
+#compet ul {
+    float: left;
+    margin: auto;
+
+}
+
+/* 3eme section */
+
+#formation {
+    display: flex;
+}
+
+#formation section {
+    justify-content: space-between;
+}
+
+.formaleft {
+    width: 30%;
+}
+
+.formacentre {
+    width: 40%;;
+}
+.formacentre li {
+    margin-left: 10em;
+}
+
+.formaright {
+    width: 30%;
+}
+
+#formation img {
+    width: 100%;
+}
+
+#formation span h2 {
+    text-align: center;
+}
+
+#formation span img {
+    size: 200px;
+
 }
