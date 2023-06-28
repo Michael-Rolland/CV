@@ -271,7 +271,14 @@ text-align: center;
     text-align: center;
     background-color: #4c7590;
     color: white;
-    padding: 1em;
+    padding: 0.2em;
+    border-top: solid rgb(36, 68, 92);
+    border-bottom: solid rgb(36, 68, 92);
+
+}
+
+.hobbiesh2 h2{
+    font-size: 2.4em;
 }
 
 footer {
@@ -289,8 +296,11 @@ footer p {
 #paragraphe {
 display:flex;
 align-items: stretch;
-margin: 0 15em;
+padding: 0 15em;
+}
 
+#paragraphe, #hobbies {
+background-color: aliceblue;
 
 }
 
