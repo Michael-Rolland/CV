@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+}
+
+/* CSS header */
+
+header {
+    display: flex;
+    flex-basis: auto;
+    background: linear-gradient(#6797b6, #58829e);
+    padding: 0.5em;
+    color: white;
+
+    
+}
+
+h1 {
+    text-align: left;
+}
+
+header span {
+    flex-basis: auto;
+    margin: auto;
+    
+    
+}
+
+header img {
+width: 6em;
+height: 6em;
+border-radius: 6em;
+background: white;
+border: solid 0.3em #4c7590;
+}
+
+header nav a {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* css parti centrale */
+
+#wrapper {
+    display: flex;
+    
+}
+
+aside {
+    height: vh;
+    width: 35%;
+    font-size: 2em;
+    text-align: center;
+    background-image: url(/Images/ordinateur.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.titleimg {
+        background-color: rgba(200,200,200,0.4);
+        text-shadow: 0 0 0.25rem black;
+        color: white;
+        font-size: 1.2em;
+
+}
+
+main {
+    width: 43%;
+    padding: 5em 1em 2em 1em;
+
+}
+
+main h2{
+    text-align: center;
+    background-color: rgb(59, 65, 94);
+    color: white;
+    padding: 0.2em;
+    margin: 0 4em;
+}
+
+main ul {
+    padding: 0.5em 1em 0.5em 12em;
+    color: rgb(59, 65, 94);
+
+}
+
+main li {
+    font-size: 1.3em;
+    list-style: square;
+   }
+
+main li a {
+    color: #4c7590;
+}
+
+
+#right {
+width: 22%;
+
+}
+
+#right img {
+    width: 14em;
+    display: block;
+    margin: 2.2em 0;
+    
+}
