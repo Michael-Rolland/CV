@@ -39,8 +39,8 @@ border: 2mm ridge rgba(17, 17, 16, 0.6);
 
 header nav a {
     color: white;
-    padding: 10px;
-    margin: 10px;
+    padding: 1em;
+    margin: 1em;
     font-size: 1.3em;
 }
 
@@ -124,22 +124,26 @@ width: 22%;
 }
 
 .leftcomp {
-width: 55%;
+width: 60%;
 background-color: black;
 color: white;
-padding: 2em 0 2em 0;
+padding: 2em 3em
 
 }
 
+.leftcomp ul {
+    padding: 2.8em;
+}
+
 .rightcomp {
-width: 45%;
+width: 30%;
 background-color: #58829e;
 color: white;
 margin: auto;
 position: relative;
 
-
 }
+
 .rightcomp img{
 width: 9em;
 height: 9em;
@@ -151,6 +155,8 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
  }
+
+ 
 
 #compet H2 {
 text-align: center;
@@ -177,14 +183,26 @@ text-align: center;
 }
 
 .formacentre {
-    width: 40%;;
+    width: 35%;
+    padding-top: 3.5em;
+    background-color: rgb(204, 204, 204, 0.6);
 }
+
+.formacentre h2 {
+    font-size: 2.5em;
+}
+
 .formacentre li {
-    margin-left: 10em;
+    margin-left: 3.5em;
+    font-size: 1.5em;
 }
 
 .formaright {
-    width: 30%;
+    width: 35%;
+    background-image: url(/Images/1166946_357.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #formation img {
@@ -196,6 +214,62 @@ text-align: center;
 }
 
 #formation span img {
-    size: 200px;
+    size: 20em;
 
+}
+
+#moipres {
+    display: flex;
+}
+
+#moipres span p {
+    font-size: 1.2em;
+    line-height: 1em;
+    text-align: justify;
+    
+}
+
+#moipres span {
+    width: 50%;
+}
+
+#moipres span img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3em;
+}
+
+#moipresleft {
+    padding: 2em 1em 2em 5em;
+}
+
+#hobbies {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#hobbies li {
+    list-style: none;
+    text-align: center;
+    font-size: 0.8em;
+    ;
+
+}
+
+#hobbies img {
+    width: 35em;
+
+}
+
+#hobbies h3 {
+    margin: 0.4em;
+}
+
+.hobbiesh2 {
+    text-align: center;
+    background-color: #4c7590;
+    color: white;
+    padding: 1em;
 }
