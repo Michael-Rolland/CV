@@ -310,3 +310,28 @@ background-color: aliceblue;
 
 
 }
+
+details {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 400;
+font-size: 0.8em;
+text-align: justify;
+padding-right: 2em;
+}
+
+summary {
+font-weight: 800;
+font-size: 1.1em;
+color:#4c7590;  
+}
+
+.decor {
+    margin-left: -1em;
+    list-style: none;
+    padding-top: 0.3em;
+}
+
+.liImmo  {
+    font-size: 0.9em;
+    list-style: inside;
+}
