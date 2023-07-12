@@ -18,6 +18,8 @@ header {
     
 }
 
+
+
 h1 {
     text-align: left;
 }
@@ -39,9 +41,19 @@ border: 2mm ridge rgba(17, 17, 16, 0.6);
 
 header nav a {
     color: white;
-    padding: 1em;
+    padding: 0.3em;
     margin: 1em;
     font-size: 1.3em;
+    align-self: center;
+}
+
+header nav img {
+    height: 1.8em;
+    width: 1.8em;
+    border: 0.1em solid black;
+    border-radius: 0;
+    vertical-align: middle;
+
 }
 
 /* css parti centrale */
