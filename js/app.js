@@ -5,7 +5,7 @@ form.addEventListener('submit', function(event) {
   event.preventDefault(); // Empêche le formulaire de se soumettre
 
   const input = document.getElementById('name').value;
-  const message = `Salut ${input} !\nTu peux m'écrire à michaël@devoji.com`;
+  const message = `Salut ${input} !\nTu peux m'écrire à michael@devoji.com`;
 
   alert(message);
 });
