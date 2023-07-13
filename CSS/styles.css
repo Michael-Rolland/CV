@@ -126,6 +126,11 @@ width: 22%;
     margin: 2.2em 0;
     
 }
+
+#right fieldset {
+    margin: 2em 12em 0 0;
+
+}
 /* 2eme section */
 
 #compet {
